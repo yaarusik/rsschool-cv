@@ -51,4 +51,18 @@ My goal is to get a job frontend-developer. My strengths are perseveranse, creat
  * CSS
  * JavaScript
  * Git
+
+## Code example:         
+```
+function isAnagram (test, original) {
+  return test.toLowerCase().split("").sort().join("") === original.toLowerCase().split("").sort().join("");
+}
+```
+This code is taken from the solution to task on codewars. My codewars account - [yaarusik](https://www.codewars.com/users/yaarusik).    
+
+<div align="center" style="margin: 40px 0">
+   <a href="https://github.com/yaarusik/github-profile-views-counter">
+       <img width="175px" src="https://komarev.com/ghpvc/?username=yaarusik&color=DE002D">
+   </a>
+</div>
     
