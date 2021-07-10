@@ -8,3 +8,47 @@ Date of birth: 14 June 1996
 Nationality: Russian    
 ## Currently:    
   
+My goal is to get a job frontend-developer. My strengths are perseveranse, creativity, ability to find non-standard solutions and structural thinking. Once I solved a difficult task in 1 minute.   
+    
+## General GitHub activity:       
+   
+<p align='center'>
+   <a href="https://github-readme-stats.vercel.app/api?username=yaarusik&show_icons=true&count_private=true">
+       <img height=140 src="https://github-readme-stats.vercel.app/api?username=yaarusik&show_icons=true&count_private=true"/></a>
+   <a href="https://github.com/yaarusik/github-readme-stats">
+       <img height=117 width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaarusik&layout=compact"/></a>
+</p>     
+      
+<p align='center'>
+   <a href="https://www.instagram.com/yaarusik/">
+       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+   </a>
+   <a href="https://t.me/yaarusik">
+       <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
+   </a>  
+</p>   
+<p align='center'>
+   📫 How to reach me: <a href='mailto:yaarusik@gmail.com'>yaarusik@gmail.com</a>
+</p>        
+     
+## Education:     
+      
+1. University - Saint Petersburg, Baltic State Technical University "VOENMEH" named after D.F. Ustinov, Control systems and computer technologies facilties, Bachelor's degree in Aircraft control systems (2014 - 2019).     
+2. Books - Head First: HTML, CSS, JavaScript.   
+3. Internet sources:   
+     * The Modern JavaScript Tutorial - [LearnJavaScript](https://learn.javascript.ru/)
+     * Basic course git from GeekBrains - [Git](https://gb.ru/courses/1117)  
+## English level:  
+
+* A2.    
+* Improving my skills daily.     
+## Employment:      
+* I have no experience in IT.   
+* As my skills increase, I'll add projects here.      
+## 🛠 Technical Stack:   
+
+ * HTML 
+ * CSS
+ * JavaScript
+ * Git
+    
