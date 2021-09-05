@@ -40,7 +40,8 @@ My goal is to get a job frontend-developer. My strengths are perseveranse, creat
 ## English level:  
 
      A2(B1 in proccess...)    
-  ## 🛠 Technical Stack:   
+
+## 🛠 Technical Stack:   
 
  * HTML5 & BEM 
  * CSS & SCSS
