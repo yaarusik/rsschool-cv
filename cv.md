@@ -39,8 +39,8 @@ My goal is to get a job frontend-developer. My strengths are perseveranse, creat
 4. Stage0 in Rolling Scopes School.
 ## English level:  
 
-     A2(B1 in proccess...)    
-
+     A2(B1 in proccess...)      
+  
 ## 🛠 Technical Stack:   
 
  * HTML5 & BEM 
