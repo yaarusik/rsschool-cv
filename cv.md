@@ -15,9 +15,7 @@ My goal is to get a job frontend-developer. My strengths are perseveranse, creat
 <p align='center'>
    <a href="https://github-readme-stats.vercel.app/api?username=yaarusik&show_icons=true&count_private=true">
        <img height=140 src="https://github-readme-stats.vercel.app/api?username=yaarusik&show_icons=true&count_private=true"/></a>
-   <a href="https://github.com/yaarusik/github-readme-stats">
-       <img height=117 width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaarusik&layout=compact"/></a>
-</p>     
+</p>  
       
 <p align='center'>
    <a href="https://www.instagram.com/yaarusik/">
@@ -37,22 +35,28 @@ My goal is to get a job frontend-developer. My strengths are perseveranse, creat
 2. Books - Head First: HTML, CSS, JavaScript.   
 3. Internet sources:   
      * The Modern JavaScript Tutorial - [LearnJavaScript](https://learn.javascript.ru/)
-     * Basic course git from GeekBrains - [Git](https://gb.ru/courses/1117)  
+     * Basic course git from GeekBrains - [Git](https://gb.ru/courses/1117) 
+4. Stage0 in Rolling Scopes School.
 ## English level:  
 
-* A2.    
-* Improving my skills daily.     
-## Employment:      
-* I have no experience in IT.   
-* As my skills increase, I'll add projects here.      
+     A2(B1 in proccess...)      
+  
 ## 🛠 Technical Stack:   
 
- * HTML 
- * CSS
+ * HTML5 & BEM 
+ * CSS & SCSS
  * JavaScript
  * Git
+ * Figma   
+## Employment:      
+* I have no experience in IT.
+* I graduated from stage0 in rsschool.   
+* As my skills increase, I'll add projects here.      
+## Code example:   
 
-## Code example:         
+My little project from stage0 - __Vertical-slider__:
+https://rolling-scopes-school.github.io/yaarusik-JSFEPRESCHOOL/vertical-slider/  
+
 ```
 function isAnagram (test, original) {
   return test.toLowerCase().split("").sort().join("") === original.toLowerCase().split("").sort().join("");
