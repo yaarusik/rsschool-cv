@@ -12,12 +12,48 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
     <title>CV using HTML & CSS</title>
   </head>
 
   <body>
     <main class="wrapper">
       <div class="container">
+
+        <header class="header">
+          <div class="header__container">
+            <a href="#" class="header__logo">
+              <img src="img/resume.svg" alt="logotip" />
+            </a>
+
+            <nav class="header__menu menu">
+              <div class="menu__icon">
+                <span></span>
+              </div>
+              <div class="menu__body">
+                <ul class="menu__list">
+                  <li>
+                    <a href="#Currently" class="menu__link">Currently</a>
+                  </li>
+                  <li>
+                    <a href="#Education" class="menu__link">Education</a>
+                  </li>
+                  <li>
+                    <a href="#Technical-Stack" class="menu__link">Stack</a>
+                  </li>
+                  <li>
+                    <a href="#Employment" class="menu__link">Employment</a>
+                  </li>
+                  <li>
+                    <a href="#Code-Example" class="menu__link">Code</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
         <section class="left__side">
           <div class="left__profileText">
             <div class="left__img">
@@ -59,54 +95,120 @@
               <li>A2 - Pre-Intermediate</li>
               <li>Improving my skills daily</li>
             </ul>
+
           </div>
-        </section>
-        <section class="right__side">
-          <div class="currently">
-            <h2 class="currently__title">Currently</h2>
-            <div class="currently__body">
-              My goal is to get a job frontend-developer. My strengths are
-              perseveranse, creativity, ability to find non-standard solutions
-              and structural thinking. Once I solved a difficult task in 1
-              minute.
+        </header>
+        <div class="side">
+          <section class="left__side">
+            <div class="left__profileText">
+              <figure class="left__img">
+                <img src="img/74lV0QVSn9k.jpg" alt="logo" />
+              </figure>
+              <h2>
+                Ruslan Vildanov <br />
+                <span>Frontend Developer</span>
+              </h2>
             </div>
-          </div>
-          <div class="currently">
-            <h2 class="currently__title">Education</h2>
-            <div class="currently__body education">
-              <ol class="currently__list">
-                <li>
-                  University - Saint Petersburg, Baltic State Technical
-                  University “VOENMEH” named after D.F. Ustinov, Control systems
-                  and computer technologies facilties, Bachelor’s degree in
-                  Aircraft control systems (2014 - 2019).
-                </li>
-                <li>Books - Head First: HTML, CSS, JavaScript.</li>
-                <li>
-                  Internet sources:
-                  <ul class="currently__underlist">
-                    <li>
-                      The Modern JavaScript Tutorial -
-                      <a href="">LearnJavaScript</a>
-                    </li>
-                    <li>
-                      Basic course git from GeekBrains -
-                      <a href="">Git</a>
-                    </li>
-                  </ul>
-                </li>
-              </ol>
-            </div>
-          </div>
-          <div class="currently down">
-            <div class="currently__flex">
-              <div class="image">
-                <img src="img/1.png" alt="img" />
-              </div>
-              <h2 class="currently__subtitle">Technical Stack</h2>
-            </div>
-            <div class="currently__body education logo">
+            <div class="left__aboutMe">
+              <h2>About me</h2>
               <ul>
+                <li>
+                  <span class="icon fa fa-address-book"><i></i></span> Adress:
+                  40 Prospect Kosmonavtov, Yekaterinburg, Russia
+                </li>
+                <li>
+                  <span class="icon fas fa-phone-square"><i></i></span>Phone
+                  number: +79632733553
+                </li>
+                <li>
+                  <span class="icon fa fa-user"><i></i></span>Marital status:
+                  Single
+                </li>
+                <li>
+                  <span class="icon fa fa-trophy"><i></i></span>Date of birth:
+                  14 June 1996
+                </li>
+                <li>
+                  <span class="icon fa fa-street-view"><i></i></span
+                  >Nationality: Russian
+                </li>
+              </ul>
+            </div>
+            <div class="left__english">
+              <h2>English level</h2>
+              <ul>
+                <li>A2 - Pre-Intermediate</li>
+                <li>Improving my skills daily</li>
+              </ul>
+            </div>
+          </section>
+          <section class="right__side">
+            <div class="currently">
+              <h2 class="currently__title" id="Currently">Currently</h2>
+              <article class="currently__body">
+                My goal is to get a job frontend-developer. My strengths are
+                perseveranse, creativity, ability to find non-standard solutions
+                and structural thinking. Once I solved a difficult task in 1
+                minute.
+              </article>
+            </div>
+            <div class="currently">
+              <h2 class="currently__title" id="Education">Education</h2>
+              <div class="currently__body education">
+                <ol class="currently__list">
+                  <li>
+                    University - Saint Petersburg, Baltic State Technical
+                    University “VOENMEH” named after D.F. Ustinov, Control
+                    systems and computer technologies facilties, Bachelor’s
+                    degree in Aircraft control systems (2014 - 2019).
+                  </li>
+                  <li>Books - Head First: HTML, CSS, JavaScript.</li>
+                  <li>
+                    Internet sources:
+                    <ul class="currently__underlist">
+                      <li>
+                        The Modern JavaScript Tutorial -
+                        <a href="">LearnJavaScript</a>
+                      </li>
+                      <li>
+                        Basic course git from GeekBrains -
+                        <a href="">Git</a>
+                      </li>
+                      <li>Stage0 in Rolling Scopes School.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="currently down">
+              <div class="currently__flex">
+                <div class="image">
+                  <img src="img/1.png" alt="img" />
+                </div>
+                <h2 class="currently__subtitle" id="Technical-Stack">
+                  Technical Stack
+                </h2>
+              </div>
+              <div class="currently__body education logo">
+                <ul>
+                  <li><img src="img/icons/html.svg" alt="" /> HTML5 & BEM</li>
+                  <li><img src="img/icons/css.svg" alt="" /> CSS</li>
+                  <li>
+                    <img src="img/icons/javascript.svg" alt="" /> JavaScript
+                  </li>
+                  <li><img src="img/icons/github.svg" alt="" /> Git</li>
+                  <li><img src="img/icons/sass.svg" alt="" /> SASS</li>
+                  <li><img src="img/icons/figma.svg" alt="" /> Figma</li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="currently__title" id="Employment">Employment</h2>
+            <div class="currently__body employment currently__list">
+              <ul>
+
+                <li>I have no experience in IT.</li>
+                <li>I graduated from stage0 in rsschool.</li>
+                <li>As my skills increase, I’ll add projects here.</li>
                 <li><img src="img/icons/html.svg" alt="" /> HTML5 & BEM</li>
                 <li><img src="img/icons/css.svg" alt="" /> CSS</li>
                 <li>
@@ -117,60 +219,79 @@
                 <li><img src="img/icons/figma.svg" alt="" /> Figma</li>
               </ul>
             </div>
-          </div>
-          <h2 class="currently__title">Employment</h2>
-          <div class="currently__body employment currently__list">
-            <ul>
-              <li>I have no experience in IT.</li>
-              <li>As my skills increase, I’ll add projects here.</li>
-            </ul>
-          </div>
-          <aside class="code">
-            <div class="code__wrapper">
-              <h2 class="code__title currently__title">Сode Examle</h2>
-              <div class="code__block">
-                <div class="code__example">
-                  <h3>My Bubblesort Algorithm</h3>
-                  <pre>
-       function bubblesortOnce(a) {
-          let b = a.slice();
-
-          for(let i = 1; i &lt; b.length; i++){
-          if(b[i-1] > b[i]){
-            let tmp = b[i-1];
-            b[i-1] = b[i];
-            b[i] = tmp;
+            <aside class="code">
+              <div class="code__wrapper">
+                <h2 class="code__title currently__title" id="Code-Example">
+                  Сode Examle
+                </h2>
+                <div class="code__block">
+                  <div class="code__example">
+                    <h3>My Bubblesort Algorithm</h3>
+                    <pre><code class="js">
+         function bubblesortOnce(a) {
+            let b = a.slice();
+  
+            for(let i = 1; i &lt; b.length; i++){
+            if(b[i-1] > b[i]){
+              let tmp = b[i-1];
+              b[i-1] = b[i];
+              b[i] = tmp;
+              }
             }
+  
+            return b;
           }
-
-          return b;
-        }
-                  </pre>
+        </code></pre>
+                  </div>
+                  <div class="code__example">
+                    <h3>Vetical slider</h3>
+                    <div class="code__project">
+                      <a
+                        href="https://rolling-scopes-school.github.io/yaarusik-JSFEPRESCHOOL/vertical-slider/"
+                        class="code__link"
+                        target="_blank"
+                      >
+                        <img src="img/slider.png" alt="" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </aside>
+            <div class="currently video__block">
+              <h2 class="currently__title" id="Currently">Video Resume</h2>
+              <div class="video">
+                <video height="375" width="670" src=""></video>
+              </div>
             </div>
-          </aside>
-          <div class="contact">
-            📫 How to reach me:
-            <a href="mailto:yaarusik@gmail.com">yaarusik@gmail.com</a>
-          </div>
-        </section>
-      </div>
-      <footer class="footer">
-        <div class="footer__row">
-          <div class="footer__github">
-            <a href="https://github.com/yaarusik">
-              <img src="img/logo/github.svg" alt="github" />
-            </a>
-          </div>
-          <div class="footer__rsscool">
-            <a href="https://rs.school/js/">
-              <img src="img/logo/rs_school.svg" alt="rsschool" />
-            </a>
-          </div>
-          <div class="footer__year"><span>2021</span></div>
+            <div class="contact">
+              📫 How to reach me:
+              <a href="mailto:yaarusik@gmail.com">yaarusik@gmail.com</a>
+            </div>
+          </section>
         </div>
-      </footer>
+
+        <footer class="footer">
+          <div class="footer__row">
+            <div class="footer__github">
+              <a href="https://github.com/yaarusik">
+                <img src="img/logo/github.svg" alt="github" />
+              </a>
+            </div>
+            <div class="footer__rsscool">
+              <a href="https://rs.school/js/">
+                <img src="img/logo/rs_school.svg" alt="rsschool" />
+              </a>
+            </div>
+            <div class="footer__year"><span>2021</span></div>
+          </div>
+        </footer>
+      </div>
     </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <script src="burger.js"></script>
   </body>
 </html>
